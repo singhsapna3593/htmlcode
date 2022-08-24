@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    background: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    color: #241d4c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #241d4C;
+    text-decoration: none;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1140px;
+    padding:0 30px;
+    margin: 0 auto;
+}
+
+.btnPrimary {
+    background: linear-gradient(100.09deg, rgb(212, 56, 103) 15.1%, rgb(233, 106, 106) 84.9%);
+    color: #fff;
+    border: solid 1px #000;
+    display: inline-block;
+    padding: 15px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 3px 3px 0 #000;
+    transform: translate3d(0, 0, 0);
+}
+.btnPrimary:hover {
+    box-shadow: none;
+    transform: translate3d(3px, 3px, 0);
+}
+
+.header {
+    padding: 5px 24px;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding:10px 0 ;
+}
+
+.navigation a {
+    margin-right: 30px;
+    padding: 20px 0;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+
+.showcaseBanner .contentBox {
+    display: flex;
+    align-items: center;
+}
+
+.showcaseBanner .text {
+    flex: 1;
+    padding-right: 20%;
+}
+
+.showcaseBanner .banner {
+    width: 40%;
+}
+
+.showcaseBanner h2 {
+    font-size: 34px;
+}
+
+.showcaseBanner video {
+    margin: 20px 0;
+}
+
+.showcaseBanner .btnPrimary {
+    margin: 20px 0;
+}
+.showcaseBanner .iconArrowDown {
+    text-align: center;
+    margin: 20px;
+}
+
+.showcaseBanner .iconArrowDown i {
+    cursor: pointer;
+}

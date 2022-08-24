@@ -1,0 +1,381 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    line-height: 18px;
+
+}
+
+.header-showcase {
+    background-color: #d8eace;
+    position: relative;
+}
+
+.btn1 {
+    padding: 9px 18px;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 30px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+.header-showcase .header {
+    position: sticky;
+    top: 0;
+}
+
+.header.active{
+    background-color: white;
+}
+
+.top-navigation a {
+    padding-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.cont-number {
+    display: flex;
+
+}
+
+.cont-number span {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-right: 15px;
+}
+
+.cont-number span a {
+    color: black;
+}
+
+.cont-number i {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.logo img {
+    height: 43px;
+
+
+}
+
+.header .button {
+    margin-left: 25px;
+
+}
+
+.btn {
+
+    margin: 0px 11px;
+    padding: 9px 18px;
+    background-color: 007c89;
+    color: white;
+}
+
+.showcase {
+    display: flex;
+    padding: 100px 0;
+
+}
+
+.showcase-content,
+.showcase-img {
+    flex: 1;
+}
+
+.showcase-content {
+    padding-right: 30px;
+}
+
+.showcase-content h2 {
+    font-size: 50px;
+    line-height: 52px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 40px 20px 0px;
+
+
+}
+
+.showcase-content p {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+.showcase-content .btn {
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+
+.more-than-designs {
+    text-align: center;
+    margin: 5% 30%;
+
+}
+
+.more-than-designs h2 {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1;
+    font-family: means web, Georgia, 'Times New Roman', Times, serif;
+    
+    padding-bottom: 40px;
+}
+
+.more-than-designs p {
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.see-what-customer-saying {
+    text-align: center;
+    margin: 5% 30%;
+
+}
+
+.see-what-customer-saying h2 {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1;
+    font-family: means web, Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+}
+
+.see-what-customer-saying p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+
+.review-box {
+    display: flex;
+    
+}
+
+.review-items {
+
+    width: 345px;
+    border: 1px solid black;
+    height: 450px;
+   padding: 20px 15px;
+   margin: 0 10px;
+
+}
+
+.star-icons i {
+    font-size: 25px;
+    color: rgb(255, 224, 27);
+
+}
+
+.review h3 {
+    padding-top: 40px;
+}
+
+.review h4 {
+    padding-top: 10px;
+    opacity: 0.6;
+}
+
+.review p {
+    padding: 20px 0;
+}
+.review a{
+    text-decoration: none;
+    color:007c89;
+}
+
+.review-box .arrowicon{
+    font-size: 64px;
+    color: 007c89;
+    padding: 160px 0;
+
+
+}
+.make-own-template-box{
+    text-align: center;
+    margin: 5% 30%;
+ 
+}
+.make-own-template-box h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 1;
+    font-family: means web, Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+}
+.make-own-template-box p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+
+} 
+.make-own-template-box .btn{
+    padding: 20px 40px;
+}
+
+
+
+.marketPlaceContainer {
+    background-color:#d8eace;
+}
+.marketPlaceContainer__btn {
+    background: none;
+    padding: 15px 30px;
+    border: solid 1px #007c89;
+    color:007c89;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.marketPlaceContainer__btn:hover{
+    color:black;
+    opacity: 1;
+}
+.mailchimpcontainer{
+    background-color: f6f6f4;
+    padding:20px 0 50px 0;
+}
+.visitbox{
+    padding: 0 20px 80px 20px;
+}
+.visitmessage h5{
+    padding-bottom: 20px;
+}
+.visitmessage h2{
+    padding-bottom: 20px;
+    line-height: 24px;
+    min-height: 95px;
+}
+.visitbox a{
+    text-decoration: none;
+    color: #007c89;
+   
+    
+    
+}
+.visitbox a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.visitmessage p{
+    padding-bottom: 20px;
+}  
+
+.visitingimage{
+    height: 160px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.visitmailchimpbox{
+    display: flex;
+}
+.visitingimage .img{
+    height: 100%;
+}
+.doitallmailchimpbox{
+    text-align: center;
+    margin: 5% 31%; 
+}
+.doitallmailchimpbox h2{
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1;
+    font-family: means web, Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+}
+
+.doitallmailchimpbox p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.wanttolearncontainer{
+    background-color: #feffff;
+    padding: 50px 0;
+} 
+.wanttomoreaboutemailsbox{
+    padding: 60px 0;
+line-height: 28px;
+   display: flex;
+   font-size: 18px;
+   
+}
+.wanttolearnemail h2{
+    padding:0 30px;   
+}
+.typesoftemplatebox {
+    padding: 0 95px;
+}
+.readytogetcontainer{
+    background-color: #d8eace;
+text-align: center;
+}
+.readytogetbox{
+  
+  padding: 120px 210px;
+  line-height: 38px;
+
+}
+.readytogetbox h2{
+font-size: 65px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.readytogetbox p{
+    font-size: 32px;
+    padding: 50px 0;   
+}
+.readytogetbox .btn{
+    padding: 20px 40px;
+}
+.relatedlinkbox{
+    display: flex;
+    padding: 50px 0;
+}
+.relatedlinkcontainer{
+    border-bottom: 1px solid black;
+}
+.mailchimplistitembox{
+display:flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 60px;
+padding-left: 50px;
+}
+.mailchimplistitembox  h5{
+padding: 20px 0;
+}
+.mailchimplistitembox .img{
+    width:70%;
+}
+.mailchimpbottom{
+    width: 20%;
+    padding-bottom: 10px;
+}
+.mail
