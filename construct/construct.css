@@ -1,0 +1,132 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.main{
+    height: 100px;
+    width:100%;
+    background-color: aliceblue;
+ }
+
+  
+button{
+    background-color:#ff6000;
+    border-radius: 50px;
+    margin-top:20px;
+    margin-left:30px;
+    text-align: center;
+    padding:25px
+    
+}
+.icons{
+  
+    height: 130px;
+    width:70%;
+    float: left;
+    
+} 
+.img1{
+    height: 100px;
+    width: 15%;
+    float: left;
+    margin-left: 250px;
+    padding-left:30px;
+} 
+.img2{
+    height: 100px;
+    width: 45%;
+    float: left;
+    padding-left: 30px;    
+}
+body{
+    background:url(https://images5.alphacoders.com/341/341715.jpg) no-repeat fixed;
+    background-size: cover;
+
+
+
+}
+h1{
+position: absolute;
+
+}
+.two{
+height:500px;
+width:100%;
+}
+.two1{
+height: 400px;
+width: 60%;
+float:left;
+
+}
+
+.two1:hover{
+color: #ff6000;
+
+}
+#circle{
+background-color:red;
+border:1px dotted white;
+outline: 3px solid #484d50;
+height:160px;
+width: 160px;
+outline-width: 10px;
+border-radius:100%;
+text-align:center;
+padding-top:20px;
+box-sizing: border-box;
+margin-right: 20px;
+position: absolute;
+
+
+}
+#third{
+
+    height: 300px;
+    width: 100%;
+
+}
+#third img {
+    width: 100%;
+    height: 100%;
+}
+.four{
+
+    height: 300px;
+    width: 100%;
+    
+}
+.four1{
+
+height:294px;
+width:30%;
+float: left;
+}
+.four1 img{
+    width: 100%;
+}
+.four2{
+    height:300px;
+    width:40%;
+    float: left;
+}
+.four2 img{
+width: 100%;
+height: 100%;
+
+}
+.four3{
+
+    height:294px;
+    width:30%;
+float: left;
+}
+.four3 img{
+width: 100%;
+position: relative;
+}
+
+
+
